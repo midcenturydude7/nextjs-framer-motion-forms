@@ -14,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/rgm1dlw.css" />
+      </head>
+      <body className="font-[sofia-pro,_sans-serif] font-medium not-italic antialiased">
         <Nav />
         {children}
       </body>
