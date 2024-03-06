@@ -7,7 +7,7 @@ export default function Inputs() {
   return (
     <div>
       <form
-        className="mb-4 rounded-lg bg-slate-400 p-8 font-semibold text-slate-700"
+        className="mb-4 rounded-lg border border-slate-500 bg-slate-400 p-8 font-bold text-slate-700"
         onSubmit={(e) => {
           e.preventDefault();
           const target = e.target as HTMLInputElement;
