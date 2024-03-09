@@ -22,7 +22,7 @@ export default function Nav() {
       name: "textareas",
     },
     {
-      path: "/radiobuttons",
+      path: "/radiobtns",
       name: "radio buttons",
     },
     {
@@ -45,7 +45,7 @@ export default function Nav() {
         {links.map((link) => (
           <li
             key={link.path}
-            className="rounded-lg px-2 py-2 pr-4 pl-4 text-slate-600 transition-all duration-200 hover:bg-slate-700 hover:text-slate-300"
+            className="rounded-lg px-2 py-2 pl-4 pr-4 text-slate-600 transition-all duration-200 hover:bg-slate-700 hover:text-slate-300"
           >
             <Link href={link.path}>{link.name}</Link>
           </li>
