@@ -17,7 +17,7 @@ export default function Inputs() {
         <label htmlFor="name-field">
           <span className="pr-2">Name:</span>
           <input
-            className="w-64 rounded-md border border-slate-600 bg-slate-100 p-2 text-slate-500"
+            className="w-64 rounded-md border border-slate-600 bg-slate-100 p-2 text-slate-500 transition-all duration-500 focus:border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-500"
             id="name-field"
             value={name}
             onChange={(e) => {
