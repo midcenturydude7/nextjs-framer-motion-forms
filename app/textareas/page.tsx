@@ -1,9 +1,9 @@
-import React from "react";
+import TextAreas from "./components/TextAreas";
 
 export default function page() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      Fun with textareas
+    <div className="flex min-h-screen items-start justify-center bg-slate-100 py-24">
+      <TextAreas />
     </div>
   );
 }
