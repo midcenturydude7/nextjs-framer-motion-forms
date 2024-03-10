@@ -7,7 +7,7 @@ export default function TextAreas() {
   return (
     <div className="flex flex-col items-center gap-4">
       <form
-        className="flex flex-col items-center justify-center gap-2 rounded-lg border border-slate-500 bg-slate-400 p-12 text-slate-700 "
+        className="flex flex-col items-center justify-center gap-2 rounded-lg border border-slate-500 bg-slate-400 p-12 text-slate-700"
         onSubmit={(e) => {
           e.preventDefault();
         }}
