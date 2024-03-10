@@ -48,7 +48,7 @@ export default function Nav() {
               className={cn(
                 "rounded-lg px-2 py-2 pl-4 pr-4 text-slate-600 transition-all duration-200 hover:bg-slate-700 hover:text-slate-300",
                 pathname === link.path
-                  ? "cursor-default bg-slate-700 text-slate-300"
+                  ? "cursor-default bg-slate-500 text-slate-200 hover:bg-slate-500 hover:text-slate-200"
                   : "",
               )}
               href={link.path}
