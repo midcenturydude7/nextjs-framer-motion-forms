@@ -10,7 +10,7 @@ export default function RadioBtns() {
         className="w-[25%] rounded-lg border border-slate-300 bg-slate-200 p-12 text-slate-700"
         onSubmit={(e) => e.preventDefault()}
       >
-        <fieldset className="flex gap-0 border border-slate-300 p-3">
+        <fieldset className="flex gap-0 rounded-lg border border-slate-300 p-3">
           <legend>Do you agree?</legend>
           <div>
             <div>
