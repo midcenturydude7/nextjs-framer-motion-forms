@@ -31,7 +31,7 @@ export default function Inputs() {
         <p>
           <strong>Current value:</strong>
         </p>
-        <p>{name || "(empty)"}</p>
+        <p className="text-slate-600">{name || "(empty)"}</p>
       </div>
     </div>
   );
